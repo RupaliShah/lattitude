@@ -15,20 +15,20 @@
   <div class="container-fluid">
     <nav class="navbar">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#"><strong>Lattitude</strong></a>
+        <a class="navbar-brand" href="https://rupalishah.github.io/lattitude/"><strong>Lattitude</strong></a>
       </div>
-      <ul class="nav navbar-nav navbar-right"></ul>
-        <li><a href="#">Comparison</a></li>
-        <li><a href="#">Data</a></li>
+      <ul class="nav navbar-nav navbar-right" id="hidemenu"></ul>
+        <li><a href="comparison.html">Comparison</a></li>
+        <li><a href="data.html">Data</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" 
           role="button" aria-haspopup="true" aria-expanded="false">
           Plots<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="">Max Temperature</a></li>
-            <li><a href="">Humidity</a></li>
-            <li><a href="">Cloudiness</a></li>
-            <li>><a href="">Wind Speed</a></li>
+            <li><a href="MaxTemperature.html">Max Temperature</a></li>
+            <li><a href="Humidity.html">Humidity</a></li>
+            <li><a href="Cloudiness.html">Cloudiness</a></li>
+            <li>><a href="Wind Speed.html">Wind Speed</a></li>
           </ul>
         </li>
       </ul>
@@ -39,8 +39,8 @@
     <div class="col-md-8">
       <h3 class="green"><strong>Summary: Latitude vs. X </strong></h3>
       <hr>
-      <img id="landing-image" BR CLEAR="left" height="250" width="250"
-      src="https://github.com/RupaliShah/WeatherDashboards/blob/master/Plots/MaximumTemperature.png?raw=true" alt="Landing Image" >
+      <img height="300" width="300"
+      src="https://github.com/RupaliShah/lattitude/blob/master/Plots%20and%20Data/MaximumTemperature.png?raw=true"alt="Landing Image">
         The purpose of this project was to analyze how weather changes as you get closer to the equator. 
         To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset 
         on over 500 cities.
@@ -49,29 +49,37 @@
         This site provides the source data and visualizations created as part of the analysis, as well 
         as explanations and descriptions of any trends and correlations witnessed.
     </div>
-      
+
     <div class="col-md-4">
       <h3 class="green"><strong>Visualizations</strong></h3>
       <hr>
       <div class="container">
         <div class="col-md-6">
-          <img id="plot1" src="https://github.com/RupaliShah/WeatherDashboards/blob/master/Plots/MaximumTemperature.png?raw=true" alt="Max Temperature"
-          BR CLEAR="left"  width="200" height="200">
+          <a href="MaxTemperature">
+          <img id="plot1" src="https://github.com/RupaliShah/lattitude/blob/master/Plots%20and%20Data/MaximumTemperature.png?raw=true" 
+          alt="Max Temperature" width="150" height="150"> 
+          </a>
         </div>
         <div class="col-md-6">
-          <img id="plot2" src="https://github.com/RupaliShah/WeatherDashboards/blob/master/Plots/Humidity.png?raw=true" alt="Humidity"
-          width="200" height="200">
+            <a href="Humidity">
+          <img id="plot2" src="https://github.com/RupaliShah/lattitude/blob/master/Plots%20and%20Data/Humidity.png?raw=true" alt="Humidity"
+          width="150" height="150">
+          </a>
         </div>          
       </div>
       
       <div class="container">
         <div class="col-md-6">
-          <img id="plot3" src="https://github.com/RupaliShah/WeatherDashboards/blob/master/Plots/Cloudiness.png?raw=true" alt="Cloudiness" 
-          alt="Visual3" width="200" height="200">
+          <a href="Cloudiness">
+          <img id="plot3" src="https://github.com/RupaliShah/lattitude/blob/master/Plots%20and%20Data/Cloudiness.png?raw=true" 
+          alt="Cloudiness" width="150" height="150"> 
+          </a>
         </div>
         <div class="col-md-6">
-          <img id="plot4" src="https://github.com/RupaliShah/WeatherDashboards/blob/master/Plots/Wind%20Speed.png?raw=true" alt="Wind Speed"
-           width="200" height="200">
+          <a href="Wind Speed">
+          <img id="plot4" src="https://github.com/RupaliShah/lattitude/blob/master/Plots%20and%20Data/Wind%20Speed.png?raw=true" alt="Wind Speed"
+          width="150" height="150">
+          </a>
         </div>              
       </div>
     </div>

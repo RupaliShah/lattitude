@@ -74,6 +74,25 @@ body {
   background:white; 
   margin-top:30px;
 }
-/*@media (max-width: 480px){
-  .navbar-collapse;
-}*/
+
+@media (max-width: 540px){
+  .navbar{
+    background:#01B6AD;
+  }
+  
+  .navbar{
+    float:none;
+    display:none;
+    overflow:hidden;
+  }
+
+  .navbar li{
+    float:none;
+    display:none;
+    overflow:hidden;
+  }
+
+  .col-md-6{
+    display:inline;
+  }
+}
