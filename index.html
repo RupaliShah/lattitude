@@ -13,22 +13,22 @@
 <body>
 
   <div class="container-fluid">
-    <nav class="navbar">
+    <nav class="navbar #smallnav">
       <div class="navbar-header">
-        <a class="navbar-brand" href="https://rupalishah.github.io/lattitude/"><strong>Lattitude</strong></a>
+        <a class="navbar-brand" href="./index.html"><strong>Lattitude</strong></a>
       </div>
       <ul class="nav navbar-nav navbar-right"></ul>
-        <li><a href="comparison.html">Comparison</a></li>
-        <li><a href="data.html">Data</a></li>
+        <li><a href="./comparison.html">Comparison</a></li>
+        <li><a href="./data.html">Data</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" 
           role="button" aria-haspopup="true" aria-expanded="false">
           Plots<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="MaxTemperature.html">Max Temperature</a></li>
-            <li><a href="Humidity.html">Humidity</a></li>
-            <li><a href="Cloudiness.html">Cloudiness</a></li>
-            <li><a href="Wind Speed.html">Wind Speed</a></li>
+            <li><a href="./MaxTemperature.html">Max Temperature</a></li>
+            <li><a href="./Humidity.html">Humidity</a></li>
+            <li><a href="./Cloudiness.html">Cloudiness</a></li>
+            <li><a href="./Wind Speed.html">Wind Speed</a></li>
           </ul>
         </li>
       </ul>
@@ -36,10 +36,11 @@
   </div>
 
   <div class="jumbotron">
-    <div class="col-md-8">
-      <h3 class="green"><strong>Summary: Latitude vs. X </strong></h3>
+    <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+      <h3 class="green" id="green-small"><strong>Summary: Latitude vs. X </strong></h3>
       <hr>
-      <img height="300" width="300"
+      <img class="img-responsive" height="400" width="400"
       src="https://github.com/RupaliShah/lattitude/blob/master/Plots/MaximumTemperature.png?raw=true"alt="Landing Image">
         The purpose of this project was to analyze how weather changes as you get closer to the equator. 
         To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset 
@@ -50,40 +51,48 @@
         as explanations and descriptions of any trends and correlations witnessed.
     </div>
 
-    <div class="col-md-4">
-      <h3 class="green"><strong>Visualizations</strong></h3>
-      <hr>
-      <div class="container">
-        <div class="col-md-6">
-          <a href="MaxTemperature.html">
-          <img src="https://github.com/RupaliShah/lattitude/blob/master/Plots/MaximumTemperature.png?raw=true" 
-          alt="Max Temperature" width="150" height="150"> 
-          </a>
-        </div>
-        <div class="col-md-6">
-            <a href="Humidity.html">
-          <img src="https://github.com/RupaliShah/lattitude/blob/master/Plots/Humidity.png?raw=true" alt="Humidity"
-          width="150" height="150">
-          </a>
-        </div>          
-      </div>
-      
-      <div class="container">
-        <div class="col-md-6">
-          <a href="Cloudiness.html">
-          <img src="https://github.com/RupaliShah/lattitude/blob/master/Plots/Cloudiness.png?raw=true" 
-          alt="Cloudiness" width="150" height="150"> 
-          </a>
-        </div>
-        <div class="col-md-6">
-          <a href="Wind Speed.html">
-          <img src="https://github.com/RupaliShah/lattitude/blob/master/Plots/Wind%20Speed.png?raw=true" alt="Wind Speed"
-          width="150" height="150">
-          </a>
-        </div>              
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <h3 class="green" id="green-small"><strong>Visualizations</strong></h3>
+        <hr>
+        <div class="container">
+          <div class="row">
+              <div class="col-xs-3 col-sm-3 col-md-6 col-lg-6">
+                  <a href="./MaxTemperature.html">
+                  <img class="img-responsive"
+                  src="https://github.com/RupaliShah/lattitude/blob/master/Plots/MaximumTemperature.png?raw=true" 
+                  alt="Max Temperature" width="150" height="150"> 
+                  </a>
+              </div>
+              <div class="col-xs-3 col-sm-3 col-md-6 col-lg-6">
+                  <a href="./Humidity.html">
+                  <img class="img-responsive"
+                  src="https://github.com/RupaliShah/lattitude/blob/master/Plots/Humidity.png?raw=true"
+                   alt="Humidity"
+                  width="150" height="150">
+                  </a>
+              </div>
+          </div>          
+          <div class="row">
+              <div class="col-xs-3 col-sm-3 col-md-6 col-lg-6">
+                  <a href="./Cloudiness.html">
+                  <img class="img-responsive"
+                  src="https://github.com/RupaliShah/lattitude/blob/master/Plots/Cloudiness.png?raw=true" 
+                  alt="Cloudiness" width="150" height="150"> 
+                  </a>
+              </div>
+              <div class="col-xs-3 col-sm-3 col-md-6 col-lg-6">
+                  <a href="./Wind Speed.html">
+                  <img class="img-responsive"
+                  src="https://github.com/RupaliShah/lattitude/blob/master/Plots/Wind%20Speed.png?raw=true" 
+                  alt="Wind Speed" width="150" height="150">
+                  </a>
+              </div>              
+            </div>
+          </div>  
+        </div>    
       </div>
     </div>
-  </div>
+  
 
 
 </body>
