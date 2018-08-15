@@ -1,4 +1,6 @@
-# Weather Dashboards on the Web
+# What's the weather like...
+
+Weather of randomly selected 500 unique cities based on latitude and longitude is visualized utilizing Python libraries [citipy Python library](https://pypi.python.org/pypi/citipy), Matlpotlib, and Seaborn, and the [OpenWeatherMap API](https://openweathermap.org/api). Weather check of each of the cities is performed using a series of successive API calls. The retrieved data is saved as a .csv file. The visualizations are displayed on the website [Lattitude](https://rupalishah.github.io/lattitude/).
 
 The website consists of 7 pages total, including:
 
