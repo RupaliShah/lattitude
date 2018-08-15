@@ -12,4 +12,4 @@ The website consists of 7 pages total, including:
 * A Data page that:
   * Displays a responsive table containing the data used in the visualizations.
   * The data is converted from .csv to html using a csv-to-html table conversion tool [ConvertCSV](http://www.convertcsv.com/csv-to-html.htm).
-* The website is deployed using github pages [Lattitude](https://rupalishah.github.io/lattitude/)
+* The website [Lattitude](https://rupalishah.github.io/lattitude/) is deployed using github pages.
